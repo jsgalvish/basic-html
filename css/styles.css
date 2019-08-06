@@ -1,0 +1,39 @@
+html,body{
+	background-color: #F5F5F5;
+	font-family: Helvetica;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	align-items: center;
+	background-color: #CB4335;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+nav .brand_img img{
+	height: 100px;
+	width: 150px;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav li{
+	list-style: none;
+	padding-left: 10px;
+}
+
+nav li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	color: #F1C40F;
+}
